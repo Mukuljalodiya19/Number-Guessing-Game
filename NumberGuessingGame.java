@@ -28,6 +28,11 @@ import java.util.Random;
                 while(attempts < maxAttempts){
                     System.out.println("Enter your guess number: ");
                     int Guess = kb.nextInt();
+                       if (Guess >= lowerBound && Guess<= upperBound){
+                    System.out.println(Guess);
+                } else  {
+                    System.out.println("Please enter a number between the given range.");
+                }
                     attempts++;
 
                     if (Guess == numberToGuess){
@@ -59,4 +64,5 @@ import java.util.Random;
             System.out.println("Thank you for playing Game!!!!");
             System.out.println("your Final Score :" + score);
             }
+
         }
