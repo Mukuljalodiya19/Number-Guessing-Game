@@ -10,7 +10,7 @@ import java.util.Random;
 
             int lowerBound = 1;
             int upperBound = 100;
-           int maxAttempts = 8;
+           int maxAttempts = 6;
            int score = 0;
            boolean playAgain = true;
 
@@ -66,3 +66,4 @@ import java.util.Random;
             }
 
         }
+
